@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Hobbio-Landing-Page/static/css/main.48e5a3fb.css",
-    "main.js": "/Hobbio-Landing-Page/static/js/main.9e4ec340.js",
-    "static/media/rockclimbing.jpg": "/Hobbio-Landing-Page/static/media/rockclimbing.65e821c3e6cb94bd5d80.jpg",
-    "static/media/paintbrush.jpg": "/Hobbio-Landing-Page/static/media/paintbrush.1b6b81d3862aba2582f2.jpg",
-    "static/media/hero-img.png": "/Hobbio-Landing-Page/static/media/hero-img.e78ba2072a5b735d5a0f.png",
-    "static/media/painting.png": "/Hobbio-Landing-Page/static/media/painting.c762b9cf0ca7f1d7c459.png",
-    "static/media/handshake.png": "/Hobbio-Landing-Page/static/media/handshake.2670f2547ba4baaf515d.png",
-    "index.html": "/Hobbio-Landing-Page/index.html",
-    "main.48e5a3fb.css.map": "/Hobbio-Landing-Page/static/css/main.48e5a3fb.css.map",
-    "main.9e4ec340.js.map": "/Hobbio-Landing-Page/static/js/main.9e4ec340.js.map"
+    "main.css": "/hobbio-landing-page/static/css/main.48e5a3fb.css",
+    "main.js": "/hobbio-landing-page/static/js/main.1ced5db3.js",
+    "static/media/rockclimbing.jpg": "/hobbio-landing-page/static/media/rockclimbing.65e821c3e6cb94bd5d80.jpg",
+    "static/media/paintbrush.jpg": "/hobbio-landing-page/static/media/paintbrush.1b6b81d3862aba2582f2.jpg",
+    "static/media/hero-img.png": "/hobbio-landing-page/static/media/hero-img.e78ba2072a5b735d5a0f.png",
+    "static/media/painting.png": "/hobbio-landing-page/static/media/painting.c762b9cf0ca7f1d7c459.png",
+    "static/media/handshake.png": "/hobbio-landing-page/static/media/handshake.2670f2547ba4baaf515d.png",
+    "index.html": "/hobbio-landing-page/index.html",
+    "main.48e5a3fb.css.map": "/hobbio-landing-page/static/css/main.48e5a3fb.css.map",
+    "main.1ced5db3.js.map": "/hobbio-landing-page/static/js/main.1ced5db3.js.map"
   },
   "entrypoints": [
     "static/css/main.48e5a3fb.css",
-    "static/js/main.9e4ec340.js"
+    "static/js/main.1ced5db3.js"
   ]
 }
