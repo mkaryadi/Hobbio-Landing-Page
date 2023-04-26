@@ -1,4 +1,3 @@
-import { getDatabase, ref, get } from 'firebase/database';
 import React, { useState, useEffect } from 'react';
 import NavBar  from '../widget/Navbar.js';
 import { Footer } from '../widget/Footer.js';
