@@ -277,6 +277,12 @@ input[type="text"], input[type="password"], select.form-input, input:focus {
   color: #FFA8BA;
 }
 
+/* Team Members */
+
+.photo-caption {
+    color: #475D5B
+}
+
 /* Frequently Asked Questions */
 #questions {
   margin: 10em 6em;
@@ -367,7 +373,7 @@ input[type="text"], input[type="password"], select.form-input, input:focus {
 
 /* Footer */
 footer {
-  background-color: #00332C;
+  background-color: #00473E;
   padding: 60px 20px;
   margin-top: auto;
 }

@@ -72,15 +72,32 @@ export function Landing() {
       </div>
           
       {/* Demo Video */}
-      <div className="d-flex flex-column text-center" id="demo">
+      <div className="d-flex flex-column text-center justify-content-center align-items-center" id="demo">
           <h2>Demo Video</h2>
-            Put video here
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameBorder="0"></iframe>
       </div>
           
       {/* Meet the Team */}
       <div className="d-flex flex-column text-center" id="team">
         <h2>Our Team</h2>
-          <em>Professionals have standards.</em>
+        <div className="photo-container row justify-content-center">
+            <div className="group-member col">
+                <img className="rounded" src={require("../img/painting.png")}></img>
+                <p className="photo-caption"><strong>Kelsey Lu</strong> <br /> Project Manager <br /> kl57@uw.edu</p>
+            </div>
+            <div className="group-member col">
+                <img className="rounded" src={require("../img/painting.png")}></img>
+                <p className="photo-caption"><strong>Sharlene Fang</strong> <br /> UX Designer <br /> sfang207@uw.edu</p>
+            </div>
+            <div className="group-member col">
+                <img className="rounded" src={require("../img/painting.png")}></img>
+                <p className="photo-caption"><strong>Jerry Wu</strong> <br /> Developer <br /> jw23@uw.edu</p>
+            </div>
+            <div className="group-member col">
+                <img className="rounded" src={require("../img/painting.png")}></img>
+                <p className="photo-caption"><strong>Matthew Karyadi</strong> <br /> Developer <br /> mkaryadi@uw.edu</p>
+            </div>
+        </div>        
       </div>
     </div>
       
