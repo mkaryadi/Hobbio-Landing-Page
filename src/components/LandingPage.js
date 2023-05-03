@@ -82,19 +82,19 @@ export function Landing() {
         <h2>Our Team</h2>
         <div className="photo-container row justify-content-center">
             <div className="group-member col">
-                <img className="rounded" src={require("../img/painting.png")}></img>
+                <img className="rounded" src={require("../img/kelsey-lu.png")}></img>
                 <p className="photo-caption"><strong>Kelsey Lu</strong> <br /> Project Manager <br /> kl57@uw.edu</p>
             </div>
             <div className="group-member col">
-                <img className="rounded" src={require("../img/painting.png")}></img>
+                <img className="rounded" src={require("../img/sharlene-fang.png")}></img>
                 <p className="photo-caption"><strong>Sharlene Fang</strong> <br /> UX Designer <br /> sfang207@uw.edu</p>
             </div>
             <div className="group-member col">
-                <img className="rounded" src={require("../img/painting.png")}></img>
+                <img className="rounded" src={require("../img/jerry-wu.png")}></img>
                 <p className="photo-caption"><strong>Jerry Wu</strong> <br /> Developer <br /> jw23@uw.edu</p>
             </div>
             <div className="group-member col">
-                <img className="rounded" src={require("../img/painting.png")}></img>
+                <img className="rounded" src={require("../img/matthew-karyadi.png")}></img>
                 <p className="photo-caption"><strong>Matthew Karyadi</strong> <br /> Developer <br /> mkaryadi@uw.edu</p>
             </div>
         </div>        
