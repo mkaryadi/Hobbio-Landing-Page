@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/hobbio-landing-page/static/css/main.1e582ebd.css",
-    "main.js": "/hobbio-landing-page/static/js/main.c75caec5.js",
+    "main.js": "/hobbio-landing-page/static/js/main.d6156a0a.js",
     "static/media/rockclimbing.jpg": "/hobbio-landing-page/static/media/rockclimbing.65e821c3e6cb94bd5d80.jpg",
     "static/media/paintbrush.jpg": "/hobbio-landing-page/static/media/paintbrush.1b6b81d3862aba2582f2.jpg",
     "static/media/matthew-karyadi.png": "/hobbio-landing-page/static/media/matthew-karyadi.bdefc178276b79a49497.png",
@@ -13,10 +13,10 @@
     "static/media/handshake.png": "/hobbio-landing-page/static/media/handshake.2670f2547ba4baaf515d.png",
     "index.html": "/hobbio-landing-page/index.html",
     "main.1e582ebd.css.map": "/hobbio-landing-page/static/css/main.1e582ebd.css.map",
-    "main.c75caec5.js.map": "/hobbio-landing-page/static/js/main.c75caec5.js.map"
+    "main.d6156a0a.js.map": "/hobbio-landing-page/static/js/main.d6156a0a.js.map"
   },
   "entrypoints": [
     "static/css/main.1e582ebd.css",
-    "static/js/main.c75caec5.js"
+    "static/js/main.d6156a0a.js"
   ]
 }
