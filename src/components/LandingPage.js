@@ -17,7 +17,6 @@ export function Landing() {
         </div>
       </div>
 
-
       {/* About */}
           <div className="d-flex flex-column text-center" id="project-goal">
             <h2>About</h2>
@@ -72,8 +71,8 @@ export function Landing() {
 
       {/* Demo Video */}
       <div className="d-flex flex-column text-center justify-content-center align-items-center" id="demo" style={{marginTop: "6em"}}>
-          <h2>Demo Video</h2>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameBorder="0"></iframe>
+          <h2>Presentation Video</h2>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/cfer-fRm3uQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
 
       {/* Meet the Team */}
@@ -86,11 +85,11 @@ export function Landing() {
             </div>
             <div className="group-member col">
                 <img className="rounded" src={require("../img/sharlene-fang.png")} alt="sharlene-fang"></img>
-                <p className="photo-caption font-increase" style={{marginBottom: "3em"}}><strong>Sharlene Fang</strong> <br /> UX Designer <br /> sfang207@uw.edu</p>
+                <p className="photo-caption font-increase" style={{marginBottom: "3em"}}><strong>Sharlene Fang</strong> <br /> UX Designer <br /> sharlenefang1@gmail.com</p>
             </div>
             <div className="group-member col">
                 <img className="rounded" src={require("../img/jerry-wu.png")} alt="jerry-wu"></img>
-                <p className="photo-caption font-increase" style={{marginBottom: "3em"}}><strong>Jerry Wu</strong> <br /> Developer <br /> jw23@uw.edu</p>
+                <p className="photo-caption font-increase" style={{marginBottom: "3em"}}><strong>Jerry Wu</strong> <br /> Developer <br /> jerrywu266@gmail.com</p>
             </div>
             <div className="group-member col">
                 <img className="rounded" src={require("../img/matthew-karyadi.png")} alt="matthew-karyadi"></img>
