@@ -1,5 +1,4 @@
 import React from 'react';
-import AddIcon from '@mui/icons-material/Add';
 
 export function Landing() {
   return (
@@ -8,7 +7,7 @@ export function Landing() {
       <div className="d-flex" id="landing-container">
         <div className="d-flex flex-column hero-text">
           <h1>Ready to learn?</h1>
-          <p>Hobbio is a free platform where you can learn, teach, and share
+          <p className='font-increase'>Hobbio is a free platform where you can learn, teach, and share
             your hobbies and passions.
           </p>
           <button type="button" className="btn btn-warning mt-3 px-5">Try it out!</button>
@@ -17,18 +16,18 @@ export function Landing() {
           <img src={require('../img/hero-img.png')} alt="landing page" className="hero-image"></img>
         </div>
       </div>
-      
-          
+
+
       {/* About */}
           <div className="d-flex flex-column text-center" id="project-goal">
             <h2>About</h2>
-            <p className="about-text"> Welcome to Hobbio! We’re dedicated to helping people discover new hobbies and connect with others who share similar interests. Whether you're a beginner or a seasoned hobbyist, Hobbio offers a range of classes across various interests, from cooking and gardening to painting and photography. We recognize the challenges that come with learning a hobby alone, so we created Hobbio to alleviate those pain points. We believe that hobbies can be a powerful tool for personal development and building meaningful connections with others. That's why we're committed to fostering a welcoming and inclusive environment that encourages knowledge sharing and collaboration. Join us and embark on a journey of self-discovery, creativity, and connection!
-            </p>  
+            <p className="about-text font-increase"> Welcome to Hobbio! We're dedicated to helping people discover new hobbies and connect with others who share similar interests. Whether you're a beginner or a seasoned hobbyist, Hobbio offers a range of classes across various interests, from cooking and gardening to painting and photography. We recognize the challenges that come with learning a hobby alone, so we created Hobbio to alleviate those pain points. We believe that hobbies can be a powerful tool for personal development and building meaningful connections with others. That's why we're committed to fostering a welcoming and inclusive environment that encourages knowledge sharing and collaboration. Join us and embark on a journey of self-discovery, creativity, and connection!
+            </p>
           </div>
       {/* What we do */}
       <div className="d-flex flex-column text-center" id="project-goal">
         <h2>What we do</h2>
-        <p className="goal-text">We value shared knowledge here. This is why Hobbio is all about sharing
+        <p className="goal-text font-increase">We value shared knowledge here. This is why Hobbio is all about sharing
           and learning about hobbies that interest you.
         </p>
         <div className="d-flex flex-row mt-4 mb-4">
@@ -54,7 +53,7 @@ export function Landing() {
       <div className="d-flex flex-row align-items-center" id="tutorial">
         <div className="d-flex flex-column tutorial-container">
           <h2>How it works</h2>
-          <p className="tutorial-text">When you sign up for Hobbio, you're automatically a learner. If you feel passionate about a specific hobby, you can apply to be a teacher through a simple form. </p>
+          <p className="tutorial-text font-increase">When you sign up for Hobbio, you're automatically a learner. If you feel passionate about a specific hobby, you can apply to be a teacher through a simple form. </p>
         </div>
         <div className="d-flex flex-row users-container justify-content-end">
           <div className="d-flex flex-column text-center user-container">
@@ -70,36 +69,36 @@ export function Landing() {
           </div>
         </div>
       </div>
-          
+
       {/* Demo Video */}
-      <div className="d-flex flex-column text-center justify-content-center align-items-center" id="demo">
+      <div className="d-flex flex-column text-center justify-content-center align-items-center" id="demo" style={{marginTop: "6em"}}>
           <h2>Demo Video</h2>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameBorder="0"></iframe>
       </div>
-          
+
       {/* Meet the Team */}
-      <div className="d-flex flex-column text-center" id="team">
+      <div className="d-flex flex-column text-center" id="team" style={{marginTop: "6em"}}>
         <h2>Our Team</h2>
         <div className="photo-container row justify-content-center">
             <div className="group-member col">
-                <img className="rounded" src={require("../img/kelsey-lu.png")}></img>
-                <p className="photo-caption"><strong>Kelsey Lu</strong> <br /> Project Manager <br /> kl57@uw.edu</p>
+                <img className="rounded" src={require("../img/kelsey-lu.png")} alt="kelsey lu"></img>
+                <p className="photo-caption font-increase" style={{marginBottom: "3em"}}><strong>Kelsey Lu</strong> <br /> Project Manager <br /> kl57@uw.edu</p>
             </div>
             <div className="group-member col">
-                <img className="rounded" src={require("../img/sharlene-fang.png")}></img>
-                <p className="photo-caption"><strong>Sharlene Fang</strong> <br /> UX Designer <br /> sfang207@uw.edu</p>
+                <img className="rounded" src={require("../img/sharlene-fang.png")} alt="sharlene-fang"></img>
+                <p className="photo-caption font-increase" style={{marginBottom: "3em"}}><strong>Sharlene Fang</strong> <br /> UX Designer <br /> sfang207@uw.edu</p>
             </div>
             <div className="group-member col">
-                <img className="rounded" src={require("../img/jerry-wu.png")}></img>
-                <p className="photo-caption"><strong>Jerry Wu</strong> <br /> Developer <br /> jw23@uw.edu</p>
+                <img className="rounded" src={require("../img/jerry-wu.png")} alt="jerry-wu"></img>
+                <p className="photo-caption font-increase" style={{marginBottom: "3em"}}><strong>Jerry Wu</strong> <br /> Developer <br /> jw23@uw.edu</p>
             </div>
             <div className="group-member col">
-                <img className="rounded" src={require("../img/matthew-karyadi.png")}></img>
-                <p className="photo-caption"><strong>Matthew Karyadi</strong> <br /> Developer <br /> mkaryadi@uw.edu</p>
+                <img className="rounded" src={require("../img/matthew-karyadi.png")} alt="matthew-karyadi"></img>
+                <p className="photo-caption font-increase" style={{marginBottom: "3em"}}><strong>Matthew Karyadi</strong> <br /> Developer <br /> mkaryadi@uw.edu</p>
             </div>
-        </div>        
+        </div>
       </div>
     </div>
-      
+
   )
 }

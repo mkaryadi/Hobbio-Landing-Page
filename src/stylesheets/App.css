@@ -18,6 +18,10 @@ h2 {
   color: red;
 }
 
+.font-increase {
+  font-size: 20px;
+}
+
 /* Navbar */
 .navbar-landing {
   background-color: #00332C;
@@ -30,8 +34,60 @@ h2 {
   font-size: 20px;
 }
 
+.navbar-logo {
+  flex-basis: 200px;
+  margin-left: 5em;
+}
+
+.navbar-logo-img {
+  width: 100%;
+}
+
 .flex-even {
   flex: 1;
+}
+
+#product-name {
+  margin-left: 5em;
+}
+
+#profile {
+  margin-right: 6em;
+}
+
+.navbar-auth {
+  color: #00473E;
+  font-size: 20px;
+  margin-right: 2.5em;
+}
+
+.auth-btn {
+  font-size: 20px;
+  font-family: inherit;
+}
+
+.auth-btn:nth-child(2), .btn-hover {
+  color: #00473E;
+}
+
+.btn-hover:hover {
+  color: #f2f7f5;
+  background-color: #00473E;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+  text-decoration-color: #00332C;
+  font-weight: bold;
+}
+
+.active-link {
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 #product-name {
@@ -144,14 +200,13 @@ input[type="text"], input[type="password"], select.form-input, input:focus {
 
 .hero-image-container {
   display: flex;
-  flex: 20 1 auto;
   margin-left: 20em;
+  margin-right: 6em;
 }
 
 .hero-image {
   width: 600px;
   height: 550px;
-  position: absolute;
   margin-top: 4em;
 }
 
@@ -165,8 +220,8 @@ input[type="text"], input[type="password"], select.form-input, input:focus {
 }
 
 .goal-text {
-  padding-left: 30em;
-  padding-right: 30em;
+  padding-left: 20em;
+  padding-right: 20em;
 }
 
 .purpose-container {
@@ -233,7 +288,7 @@ input[type="text"], input[type="password"], select.form-input, input:focus {
 
 .user-container {
   border-radius: 10px;
-  flex-basis: 280px;
+  flex-basis: 300px;
   background-color: #FBFBFB;
   margin: 20px 30px;
   /* box-shadow: 0 2px 2px 1px rgba(112, 144, 176, 0.2); */
