@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/hobbio-landing-page/static/css/main.e57c533b.css",
-    "main.js": "/hobbio-landing-page/static/js/main.95455a3c.js",
+    "main.css": "/hobbio-landing-page/static/css/main.d70ebb6d.css",
+    "main.js": "/hobbio-landing-page/static/js/main.00ff3f30.js",
     "static/media/rockclimbing.jpg": "/hobbio-landing-page/static/media/rockclimbing.65e821c3e6cb94bd5d80.jpg",
     "static/media/paintbrush.jpg": "/hobbio-landing-page/static/media/paintbrush.1b6b81d3862aba2582f2.jpg",
-    "static/media/kelsey-lu.png": "/hobbio-landing-page/static/media/kelsey-lu.1357ad9b7ae282edc00b.png",
-    "static/media/sharlene-fang.png": "/hobbio-landing-page/static/media/sharlene-fang.66420a35fa1d5abb8a7f.png",
-    "static/media/matthew-karyadi.png": "/hobbio-landing-page/static/media/matthew-karyadi.05ab45822347d6a6ba15.png",
-    "static/media/jerry-wu.png": "/hobbio-landing-page/static/media/jerry-wu.fbeb6ccc57dbc7fb7b98.png",
-    "static/media/hero-img.png": "/hobbio-landing-page/static/media/hero-img.f6681a79dc218c332c7f.png",
+    "static/media/kelsey-lu.png": "/hobbio-landing-page/static/media/kelsey-lu.24174588fbae6e4967b6.png",
+    "static/media/sharlene-fang.png": "/hobbio-landing-page/static/media/sharlene-fang.446902d9be3977ed5338.png",
+    "static/media/matthew-karyadi.png": "/hobbio-landing-page/static/media/matthew-karyadi.4a80a9e90838aa94e5e1.png",
+    "static/media/jerry-wu.png": "/hobbio-landing-page/static/media/jerry-wu.e964483a0a88f1412c91.png",
+    "static/media/hero-img.png": "/hobbio-landing-page/static/media/hero-img.dfa65a490f7dbbdc62a5.png",
+    "static/media/navbar-white.png": "/hobbio-landing-page/static/media/navbar-white.1e8ce47888e63743012a.png",
     "static/media/painting.png": "/hobbio-landing-page/static/media/painting.c762b9cf0ca7f1d7c459.png",
     "static/media/handshake.png": "/hobbio-landing-page/static/media/handshake.2670f2547ba4baaf515d.png",
     "index.html": "/hobbio-landing-page/index.html",
-    "main.e57c533b.css.map": "/hobbio-landing-page/static/css/main.e57c533b.css.map",
-    "main.95455a3c.js.map": "/hobbio-landing-page/static/js/main.95455a3c.js.map"
+    "main.d70ebb6d.css.map": "/hobbio-landing-page/static/css/main.d70ebb6d.css.map",
+    "main.00ff3f30.js.map": "/hobbio-landing-page/static/js/main.00ff3f30.js.map"
   },
   "entrypoints": [
-    "static/css/main.e57c533b.css",
-    "static/js/main.95455a3c.js"
+    "static/css/main.d70ebb6d.css",
+    "static/js/main.00ff3f30.js"
   ]
 }
